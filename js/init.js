@@ -1,11 +1,11 @@
-// $(document).on('click', 'a', function(event){
-//     event.preventDefault();
-//
-//     $('html, body').animate({
-//         scrollTop: $( $.attr(this, 'href') ).offset().top
-//     }, 1200);
-//
-// });
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1200);
+
+});
 
 
 // $('a[href*="#"]').click(function(e) {
@@ -25,32 +25,32 @@ $('.carousel').carousel({
 });
 
 
-function filterPath(string) {
-   return string
-   .replace(/^\//,'')
-   .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-   .replace(/\/$/,'');
- }
- var locationPath = filterPath(location.pathname);
- var scrollElem = scrollableElement('html', 'body');
-
- $('a[href*=#]').each(function() {
-   var thisPath = filterPath(this.pathname) || locationPath;
-   if (  locationPath == thisPath
-     && (location.hostname == this.hostname || !this.hostname)
-     && this.hash.replace(/#/,'') ) {
-     var $target = $(this.hash), target = this.hash;
-   if (target) {
-     var targetOffset = $target.offset().top;
-     $(this).click(function(event) {
-       event.preventDefault();
-       $(scrollElem).animate({scrollTop: targetOffset}, 2000,'swing', function() {
-         location.hash = target;
-       });
-     });
-   }
- }
-});
+// function filterPath(string) {
+//    return string
+//    .replace(/^\//,'')
+//    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+//    .replace(/\/$/,'');
+//  }
+//  var locationPath = filterPath(location.pathname);
+//  var scrollElem = scrollableElement('html', 'body');
+//
+//  $('a[href*=#]').each(function() {
+//    var thisPath = filterPath(this.pathname) || locationPath;
+//    if (  locationPath == thisPath
+//      && (location.hostname == this.hostname || !this.hostname)
+//      && this.hash.replace(/#/,'') ) {
+//      var $target = $(this.hash), target = this.hash;
+//    if (target) {
+//      var targetOffset = $target.offset().top;
+//      $(this).click(function(event) {
+//        event.preventDefault();
+//        $(scrollElem).animate({scrollTop: targetOffset}, 2000,'swing', function() {
+//          location.hash = target;
+//        });
+//      });
+//    }
+//  }
+// });
 
  // use the first element that is "scrollable"
  function scrollableElement(els) {

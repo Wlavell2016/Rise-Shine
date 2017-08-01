@@ -52,7 +52,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Cambo", "Times New Roman", serif;
+  font-family: "Lato", "Times New Roman", serif;
 }
 h1 a,
 .h1 a,
@@ -68,7 +68,7 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: "Cambo", "Times New Roman", serif;
+  font-family: "Lato", "Times New Roman", serif;
 }
 
 .content-blog {
@@ -207,7 +207,7 @@ a:hover {
 }
 
 .separator {
-  color: #c5a47e;
+  color: #00abc0;
   margin: 0 auto 20px;
   max-width: 240px;
   text-align: center;
@@ -218,7 +218,7 @@ a:hover {
   width: 40%;
   content: " ";
   margin-top: 10px;
-  border: 1px solid #c5a47e;
+  border: 1px solid #00abc0;
 }
 .separator:before {
   float: left;
@@ -245,14 +245,14 @@ a:hover {
   color: #f88f58;
 }
 .separator-warning:before, .separator-warning:after {
-  border-color: #f88f58;
+  border-color: #00abc0;
 }
 
 .separator-danger {
-  color: #e78b90;
+  color: #00abc0;
 }
 .separator-danger:before, .separator-danger:after {
-  border-color: #e78b90;
+  border-color: #00abc0;
 }
 
 p.description {
@@ -854,7 +854,7 @@ a.carousel-control span.fa {
 .btn-danger.btn-fill,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill {
   color: #FFFFFF;
-  background-color: #e78b90;
+  background-color: #00abc0;
   opacity: 1;
   filter: alpha(opacity=100);
 }
