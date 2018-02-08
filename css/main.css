@@ -9,9 +9,13 @@
 }
 /*nav Area*/
 
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Bowlby One', cursive;
+
 p {
     font-size: 1.65em;
     color: #333
+
 }
 
 .medium p {
@@ -19,7 +23,15 @@ p {
     color: #333
 }
 
-
+.lowercase h1,
+.lowercase h2,
+.lowercase h3,
+.lowercase h4,
+.lowercase h5,
+.lowercase h6,
+.lowercase p {
+    font-family: 'Bowlby One', cursive;
+}
 /*map2*/
 .map{
     position: relative;
@@ -80,7 +92,7 @@ p {
 }
 
 .intro-container{
-  padding-top: 5vh;
+  padding-top: 6vh;
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
@@ -88,7 +100,16 @@ p {
 
 
 .residential-container {
-  padding-bottom: 5vh
+      padding-top: 6vh;
+      padding-bottom: 5vh
+}
+
+.container-break {
+    height: 20vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-style: solid;
+    border-color:black;
 }
 
 
@@ -108,6 +129,7 @@ p {
 }
 
 .scuba-container{
+    height: 20vh;
     padding-top: 5vh;
     padding-bottom: 2vh;
 }
@@ -197,6 +219,7 @@ z-index: 2
 .white h5,
 .white p {
   color: 	#FFFFFF;
+  font
 }
 
 .white p {
@@ -252,6 +275,9 @@ z-index: 2
 	text-align: center;
 }
 
+.center {
+	text-align: center;
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 60vh;

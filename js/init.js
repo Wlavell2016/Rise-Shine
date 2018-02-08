@@ -20,9 +20,9 @@ $(document).on('click', 'a', function(event){
 //     });
 // });
 
-$('.carousel').carousel({
-    interval: 3000
-});
+// $('.carousel').carousel({
+//     interval: 3000
+// });
 
 
 // function filterPath(string) {

@@ -52,7 +52,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Lato", "Times New Roman", serif;
+  font-family: 'Bowlby One SC', cursive;
 }
 h1 a,
 .h1 a,
@@ -68,7 +68,8 @@ h6 a,
 .h6 a,
 .content-blog p a {
   font-size: inherit;
-  font-family: "Lato", "Times New Roman", serif;
+  font-family: 'Bowlby One SC', cursive;
+  /*font-family: "Lato", "Times New Roman", serif;*/
 }
 
 .content-blog {
@@ -116,7 +117,7 @@ p {
 }
 
 p,
-label,
+
 .btn,
 .form-control,
 .title h5,
@@ -129,9 +130,15 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*font-family: "Bowlby One", Cursive;*/
+ font-family: sans-serif;
 }
 
+label{
+    font-family: 'Bowlby One', cursive;
+    font-size: 14rem;
+}
 a {
   color: #777777;
   opacity: .7;
